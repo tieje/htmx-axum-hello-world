@@ -1,0 +1,16 @@
+{% extends "layouts/base.html" %}
+{% block title %}Hello World{% endblock %}
+{% block head %}
+<script
+src="https://unpkg.com/htmx.org@1.9.9"
+integrity="sha384-QFjmbokDn2DjBjq+fM+8LUIVrAgqcNW2s0PjAxHETgRn9l4fvX31ZxDxvwQnyMOX"
+crossorigin="anonymous"
+></script>
+{% endblock %}
+
+{% block content %}
+<body>
+    <p>{{ greeting }}</p>
+    <button hx-get="/click" hx-trigger="click" hx-target="this" hx-swap="innerHTML">Click me</button>
+</body>
+{% endblock %}
