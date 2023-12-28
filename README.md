@@ -33,4 +33,4 @@ Bonus: Try out [http://localhost:3000/Kevin](http://localhost:3000/Kevin)
 
 ## Motivation
 
-I created this simple app as part of [my blog](). You can learn more about my experience building with HTMX and Axum there.
+I created this simple app as part of [my blog](https://thomasjamesfrancis.com/entries/building_my_blog_with_htmx_and_axum). You can learn more about my experience building with HTMX and Axum there.
